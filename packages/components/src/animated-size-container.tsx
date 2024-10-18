@@ -6,7 +6,7 @@ import {
   forwardRef,
   useRef
 } from "react"
-import { useResizeObserver } from "@polpi/hooks/src"
+import { useResizeObserver } from "@polpi/hooks"
 
 type AnimatedSizeContainerProps = PropsWithChildren<{
   width?: boolean

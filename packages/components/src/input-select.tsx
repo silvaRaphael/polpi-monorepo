@@ -25,8 +25,7 @@ import {
 import { Drawer } from "vaul"
 import { Badge } from "./badge"
 import { BlurImage } from "./blur-image"
-import { useMediaQuery } from "@polpi/hooks/src"
-import { useScrollProgress } from "@polpi/hooks/src/use-scroll-progress"
+import { useMediaQuery, useScrollProgress } from "@polpi/hooks"
 
 const InputSelectContext = createContext<{
   inputAttrs: InputHTMLAttributes<HTMLInputElement>
