@@ -1,0 +1,16 @@
+{
+  "name": "comps-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:components && npm run build:hooks && npm run build:lib",
+    "build:components": "cd packages/components && npm run build",
+    "build:hooks": "cd packages/hooks && npm run build",
+    "build:lib": "cd packages/lib && npm run build"
+  },
+  "dependencies": {
+    "tsup": "^8.3.0"
+  }
+}
