@@ -1,4 +1,4 @@
-import { capitalize, cn } from "@comps/lib"
+import { capitalize, cn } from "@polpi/lib"
 import { InputHTMLAttributes, ReactNode, useMemo, useState } from "react"
 import { Button } from "./button"
 import { Label } from "./label"

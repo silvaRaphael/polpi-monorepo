@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react"
 import { PaginationState } from "@tanstack/react-table"
-import { useRouterStuff } from "@comps/hooks"
-import { PAGINATION_LIMIT } from "@comps/lib"
+import { useRouterStuff } from "@polpi/hooks"
+import { PAGINATION_LIMIT } from "@polpi/lib"
 
 export function useTablePagination(props?: {
   pageSize?: number

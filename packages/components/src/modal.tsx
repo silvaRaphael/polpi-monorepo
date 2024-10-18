@@ -1,9 +1,9 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import * as Dialog from "@radix-ui/react-dialog"
 import { useNavigate } from "react-router-dom"
 import { Dispatch, SetStateAction } from "react"
 import { Drawer } from "vaul"
-import { useMediaQuery } from "@comps/hooks"
+import { useMediaQuery } from "@polpi/hooks"
 import { LoadingCircle } from "./icons"
 
 export function Modal({

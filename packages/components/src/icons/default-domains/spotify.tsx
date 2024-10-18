@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 
 export function Spotify({ className }: { className?: string }) {
   return (

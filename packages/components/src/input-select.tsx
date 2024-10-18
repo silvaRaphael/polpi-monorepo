@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import {
   flip,
   offset,
@@ -25,8 +25,8 @@ import {
 import { Drawer } from "vaul"
 import { Badge } from "./badge"
 import { BlurImage } from "./blur-image"
-import { useMediaQuery } from "@comps/hooks/src"
-import { useScrollProgress } from "@comps/hooks/src/use-scroll-progress"
+import { useMediaQuery } from "@polpi/hooks/src"
+import { useScrollProgress } from "@polpi/hooks/src/use-scroll-progress"
 
 const InputSelectContext = createContext<{
   inputAttrs: InputHTMLAttributes<HTMLInputElement>

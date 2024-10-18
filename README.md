@@ -1,11 +1,11 @@
-# `@comps`
+# `@polpi`
 
 ## Installation
 
 To install the packages, run:
 
 ```bash
-bun add @comps/components
-bun add @comps/hooks
-bun add @comps/lib
+bun add @polpi/components
+bun add @polpi/hooks
+bun add @polpi/lib
 ```

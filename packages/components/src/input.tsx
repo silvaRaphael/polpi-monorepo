@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { tv, VariantProps } from "tailwind-variants"
 import { EyeIcon, EyeOffIcon, Loader2 } from "lucide-react"
 import React, { ReactNode, useCallback, useState } from "react"

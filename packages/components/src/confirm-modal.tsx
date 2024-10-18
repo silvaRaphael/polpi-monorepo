@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 import { Modal } from "./modal"
 import { Button } from "./button"
-import { useMediaQuery } from "@comps/hooks"
+import { useMediaQuery } from "@polpi/hooks"
 
 export function ConfirmModal({
   trigger,

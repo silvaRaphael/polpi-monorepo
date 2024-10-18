@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { Command } from "cmdk"
 import { Lock } from "lucide-react"
 import { Tooltip } from "../tooltip"

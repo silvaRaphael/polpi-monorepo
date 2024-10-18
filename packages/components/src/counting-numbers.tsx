@@ -1,4 +1,4 @@
-import { nFormatter } from "@comps/lib"
+import { nFormatter } from "@polpi/lib"
 import { Slot } from "@radix-ui/react-slot"
 import React, {
   ElementType,

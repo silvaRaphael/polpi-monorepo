@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { LayoutGroup, motion } from "framer-motion"
 import { Dispatch, SetStateAction, useId } from "react"
 

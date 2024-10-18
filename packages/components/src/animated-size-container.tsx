@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { motion } from "framer-motion"
 import {
   ComponentPropsWithoutRef,
@@ -6,7 +6,7 @@ import {
   forwardRef,
   useRef
 } from "react"
-import { useResizeObserver } from "@comps/hooks/src"
+import { useResizeObserver } from "@polpi/hooks/src"
 
 type AnimatedSizeContainerProps = PropsWithChildren<{
   width?: boolean

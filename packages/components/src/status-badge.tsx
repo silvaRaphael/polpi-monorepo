@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { cva, type VariantProps } from "class-variance-authority"
 import { CircleCheck, Info, ClockAlert, ShieldAlert } from "lucide-react"
 import { Icon } from "./icons"

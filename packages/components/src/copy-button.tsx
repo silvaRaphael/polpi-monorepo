@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { VariantProps, cva } from "class-variance-authority"
 import { LucideIcon } from "lucide-react"
 import { useState } from "react"

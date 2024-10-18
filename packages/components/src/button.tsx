@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { VariantProps, cva } from "class-variance-authority"
 import React, { ReactNode, forwardRef } from "react"
 import { Icon, LoadingSpinner } from "./icons"

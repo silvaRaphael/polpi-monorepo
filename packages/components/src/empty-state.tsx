@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { buttonVariants } from "./button"
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 
 export function EmptyState({
   icon: Icon,

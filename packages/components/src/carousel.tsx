@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { VariantProps, cva } from "class-variance-authority"
 import Autoplay from "embla-carousel-autoplay"
 import useEmblaCarousel, {

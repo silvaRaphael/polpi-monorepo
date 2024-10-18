@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 
 export function Title({ text, depth = 0 }: { text: string; depth?: 0 | 1 }) {
   const size = {

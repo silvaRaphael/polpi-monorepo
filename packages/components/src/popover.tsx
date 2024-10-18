@@ -1,8 +1,8 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import * as PopoverPrimitive from "@radix-ui/react-popover"
 import { PropsWithChildren, ReactNode } from "react"
 import { Drawer } from "vaul"
-import { useMediaQuery } from "@comps/hooks"
+import { useMediaQuery } from "@polpi/hooks"
 
 export type PopoverProps = PropsWithChildren<{
   content: ReactNode | string

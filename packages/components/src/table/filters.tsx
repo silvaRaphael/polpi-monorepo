@@ -17,7 +17,7 @@ import { DatePicker } from "../date-picker/date-picker"
 import { Button } from "../button"
 import { formatDate } from "../date-picker/shared"
 
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 
 export function Filters(tableProps: {
   filters: TableFilter[]

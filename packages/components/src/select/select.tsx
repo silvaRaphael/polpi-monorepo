@@ -6,7 +6,7 @@ import {
 } from "@radix-ui/react-icons"
 import * as SelectPrimitive from "@radix-ui/react-select"
 
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { CheckCircle2 } from "lucide-react"
 
 const Select = SelectPrimitive.Root

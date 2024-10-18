@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 
 export default function ExpandingArrow({ className }: { className?: string }) {
   return (

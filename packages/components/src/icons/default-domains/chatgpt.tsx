@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 
 export function ChatGPT({ className }: { className?: string }) {
   return (

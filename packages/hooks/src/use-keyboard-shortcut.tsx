@@ -1,4 +1,4 @@
-import { stableSort } from "@comps/lib/src"
+import { stableSort } from "@polpi/lib"
 import {
   Dispatch,
   SetStateAction,
@@ -98,7 +98,7 @@ export function useKeyboardShortcut(
       // Sort the listeners by priority
       const topListener = stableSort(
         matchingListeners,
-        (a, b) => (b.priority ?? 0) - (a.priority ?? 0)
+        (a: any, b: any) => (b.priority ?? 0) - (a.priority ?? 0)
       ).slice(-1)[0]
 
       // Check if this is the top listener

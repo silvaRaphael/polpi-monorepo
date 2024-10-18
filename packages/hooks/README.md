@@ -1,11 +1,11 @@
-# `@comps/hooks`
+# `@polpi/hooks`
 
-`@comps/hooks` is a library of hooks for web applications.
+`@polpi/hooks` is a library of hooks for web applications.
 
 ## Installation
 
 To install the package, run:
 
 ```bash
-bun add @comps/hooks
+bun add @polpi/hooks
 ```

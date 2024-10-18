@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { motion } from "framer-motion"
 
 export function ProgressBar({

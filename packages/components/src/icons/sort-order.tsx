@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { motion } from "framer-motion"
 
 const upPath = "M6.75 8.25L4 11L1.25 8.25"

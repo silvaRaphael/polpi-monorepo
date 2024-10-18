@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const badgeVariants = cva(

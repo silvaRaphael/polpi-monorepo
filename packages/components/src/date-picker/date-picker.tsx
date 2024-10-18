@@ -8,8 +8,8 @@ import { Trigger } from "./trigger"
 import { DatePreset, PickerProps } from "./types"
 import { SelectSingleEventHandler } from "react-day-picker"
 import { format } from "date-fns"
-import { useKeyboardShortcut } from "@comps/hooks"
-import { cn } from "@comps/lib"
+import { useKeyboardShortcut } from "@polpi/hooks"
+import { cn } from "@polpi/lib"
 
 type DatePickerProps = {
   presets?: DatePreset[]

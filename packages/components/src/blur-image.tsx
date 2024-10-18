@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { useEffect, useState } from "react"
 
 export function BlurImage(props: React.InputHTMLAttributes<HTMLImageElement>) {

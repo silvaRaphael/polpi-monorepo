@@ -6,7 +6,7 @@ import { ReactNode, useState } from "react"
 
 import { Badge } from "./badge"
 import { Button, ButtonProps, buttonVariants } from "./button"
-import { cn, nFormatter, timeAgo } from "@comps/lib"
+import { cn, nFormatter, timeAgo } from "@polpi/lib"
 
 export function TooltipProvider({ children }: { children: ReactNode }) {
   return (

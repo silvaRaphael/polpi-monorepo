@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import * as SwitchPrimitive from "@radix-ui/react-switch"
 import { Dispatch, ReactNode, SetStateAction, useMemo } from "react"
 import { Tooltip } from "./tooltip"

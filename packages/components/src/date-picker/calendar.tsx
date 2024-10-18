@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { addYears, format, isSameMonth } from "date-fns"
 import {
   ChevronLeft,

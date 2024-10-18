@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { tv, type VariantProps } from "tailwind-variants"
 import { Lightbulb, X } from "lucide-react"
 import * as React from "react"

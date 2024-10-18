@@ -38,8 +38,8 @@ import {
 import { Filters } from "./filters"
 import { Checkbox } from "../checkbox"
 import { ScrollArea } from "../scroll-area"
-import { useScrollPosition } from "@comps/hooks"
-import { queryClient, cn, PAGINATION_LIMIT } from "@comps/lib"
+import { useScrollPosition } from "@polpi/hooks"
+import { queryClient, cn, PAGINATION_LIMIT } from "@polpi/lib"
 
 export * from "./data"
 export * from "./filters"

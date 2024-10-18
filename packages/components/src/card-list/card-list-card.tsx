@@ -1,4 +1,4 @@
-import { cn } from "@comps/lib"
+import { cn } from "@polpi/lib"
 import { cva } from "class-variance-authority"
 import {
   PropsWithChildren,

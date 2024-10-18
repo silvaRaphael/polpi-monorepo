@@ -1,4 +1,4 @@
-import { PAGINATION_LIMIT } from "@comps/lib"
+import { PAGINATION_LIMIT } from "@polpi/lib"
 import { PropsWithChildren } from "react"
 import { Button } from "../button"
 

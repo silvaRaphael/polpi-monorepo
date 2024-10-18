@@ -1,6 +1,6 @@
 {
-  "name": "@comps/components",
-  "version": "1.0.0",
+  "name": "@polpi/components",
+  "version": "1.0.1",
   "sideEffects": false,
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
@@ -16,8 +16,8 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@comps/hooks": "workspace:*",
-    "@comps/lib": "workspace:*",
+    "@polpi/hooks": "^1.0.1",
+    "@polpi/lib": "^1.0.1",
     "@floating-ui/react": "^0.26.25",
     "@radix-ui/react-accordion": "^1.0.1",
     "@radix-ui/react-checkbox": "^1.0.4",
@@ -38,26 +38,20 @@
     "@tailwindcss/typography": "^0.5.15",
     "@tanstack/react-query": "^5.56.2",
     "@tanstack/react-table": "^8.17.3",
-    "chrono-node": "^2.7.7",
     "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
     "cmdk": "1.0.0",
     "date-fns": "^3.6.0",
     "embla-carousel-autoplay": "^8.1.7",
     "embla-carousel-react": "^8.1.7",
     "framer-motion": "^10.16.16",
     "js-cookie": "^3.0.5",
-    "json-2-csv": "^5.5.5",
     "linkify-react": "^4.1.3",
     "lucide-react": "^0.453.0",
-    "ms": "^2.1.3",
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
-    "react-dom": "^18.3.1",
     "react-resizable-panels": "^2.1.2",
     "react-router-dom": "^6.26.2",
     "sonner": "^1.5.0",
-    "tailwind-merge": "^2.5.2",
     "tailwind-scrollbar-hide": "^1.1.7",
     "tailwind-variants": "^0.2.1",
     "tailwindcss-animate": "^1.0.7",
@@ -73,8 +67,7 @@
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "globals": "^15.9.0",
-    "postcss": "^8.4.45",
-    "tailwindcss": "^3.4.10"
+    "postcss": "^8.4.45"
   },
   "author": "Raphael Silva <raphaeltiago02@gmail.com>"
 }
