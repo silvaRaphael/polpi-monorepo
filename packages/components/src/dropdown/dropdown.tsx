@@ -18,6 +18,10 @@ const DropdownMenuPortal = DropdownMenuPrimitive.Portal
 
 const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup
 
+const DropdownMenuSub = DropdownMenuPrimitive.Sub
+
+DropdownMenuPrimitive.Sub
+
 const DropdownMenuSubTrigger = React.forwardRef<
   React.ElementRef<typeof DropdownMenuPrimitive.SubTrigger>,
   React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.SubTrigger> & {
@@ -27,7 +31,7 @@ const DropdownMenuSubTrigger = React.forwardRef<
   <DropdownMenuPrimitive.SubTrigger
     ref={ref}
     className={cn(
-      "flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none focus:bg-accent data-[state=open]:bg-accent",
+      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm transition-colors font-semibold focus:bg-gray-50 text-color-500 focus:text-gray-700 data-[disabled]:pointer-events-none data-[disabled]:opacity-50 space-x-4",
       inset && "pl-8",
       className
     )}
@@ -74,24 +78,6 @@ const DropdownMenuContent = React.forwardRef<
   </DropdownMenuPrimitive.Portal>
 ))
 DropdownMenuContent.displayName = DropdownMenuPrimitive.Content.displayName
-
-const DropdownMenuSubItem = React.forwardRef<
-  React.ElementRef<typeof DropdownMenuPrimitive.Item>,
-  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.Item> & {
-    inset?: boolean
-  }
->(({ className, inset, ...props }, ref) => (
-  <DropdownMenuPrimitive.Item
-    ref={ref}
-    className={cn(
-      "relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1 text-sm outline-none transition-colors font-semibold focus:bg-gray-50 text-color-500 focus:text-gray-700 data-[disabled]:pointer-events-none data-[disabled]:opacity-50 space-x-4",
-      inset && "pl-8",
-      className
-    )}
-    {...props}
-  />
-))
-DropdownMenuSubItem.displayName = DropdownMenuPrimitive.Sub.displayName
 
 const DropdownMenuItem = React.forwardRef<
   React.ElementRef<typeof DropdownMenuPrimitive.Item>,
@@ -212,7 +198,7 @@ export {
   DropdownMenuShortcut,
   DropdownMenuGroup,
   DropdownMenuPortal,
-  DropdownMenuSubItem,
+  DropdownMenuSub,
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuRadioGroup
