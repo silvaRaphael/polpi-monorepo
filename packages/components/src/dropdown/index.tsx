@@ -7,7 +7,7 @@ import {
   DropdownMenuGroup,
   DropdownMenuShortcut,
   DropdownMenuSeparator,
-  DropdownMenuSub,
+  DropdownMenuSubItem,
   DropdownMenuSubTrigger,
   DropdownMenuSubContent
 } from "./dropdown"
@@ -20,7 +20,7 @@ const Dropdown = Object.assign(DropdownMenu, {
   Group: DropdownMenuGroup,
   Shortcut: DropdownMenuShortcut,
   Separator: DropdownMenuSeparator,
-  Sub: DropdownMenuSub,
+  Sub: DropdownMenuSubItem,
   SubTrigger: DropdownMenuSubTrigger,
   SubContent: DropdownMenuSubContent
 })
