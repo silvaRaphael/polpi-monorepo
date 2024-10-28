@@ -41,9 +41,6 @@ export * from "./icons"
 export * from "./background"
 export * from "./max-width-wrapper"
 
-// content
-export * from "./content"
-
 // misc
 export * from "./animated-size-container"
 export * from "./blur-image"

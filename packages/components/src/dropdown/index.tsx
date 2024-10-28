@@ -6,7 +6,10 @@ import {
   DropdownMenuItem,
   DropdownMenuGroup,
   DropdownMenuShortcut,
-  DropdownMenuSeparator
+  DropdownMenuSeparator,
+  DropdownMenuSub,
+  DropdownMenuSubTrigger,
+  DropdownMenuSubContent
 } from "./dropdown"
 
 const Dropdown = Object.assign(DropdownMenu, {
@@ -16,7 +19,10 @@ const Dropdown = Object.assign(DropdownMenu, {
   Item: DropdownMenuItem,
   Group: DropdownMenuGroup,
   Shortcut: DropdownMenuShortcut,
-  Separator: DropdownMenuSeparator
+  Separator: DropdownMenuSeparator,
+  Sub: DropdownMenuSub,
+  SubTrigger: DropdownMenuSubTrigger,
+  SubContent: DropdownMenuSubContent
 })
 
 export { Dropdown }
